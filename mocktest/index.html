@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="navlogo">
+            <img src="picture/logo.png" alt="Logo">
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
+        <div class="authlink">
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li class="regi"><a href="#">Register</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="background-section">
+            <img src="./picture/image.png" alt="background-picture" class="background-img">
+            <div class="content">
+                <p>The largest community for photo enthosiasts</p>
+                <button class="cta-button">Join Today</button>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h1 class="head"><strong>Snap photos and share like<br>never before</strong></h1>
+            <div class="container">
+                <div class="card">
+                    <h1>Lorem, ipsum dolor sit </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, officiis corrupti rerum iure
+                        facere velit dolorum, labore quidem, ab nesciunt voluptatum! Tenetur harum omnis ipsam eum aut
+                        rerum, dolor cupiditate.</p>
+                    <button>Learn more</button>
+                </div>
+                <div class="card">
+                    <h1>Lorem, ipsum dolor sit</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, officiis corrupti rerum iure
+                        facere velit dolorum, labore quidem, ab nesciunt voluptatum! Tenetur harum omnis ipsam eum aut
+                        rerum, dolor cupiditate.</p>
+                    <button>Learn more</button>
+                </div>
+                <div class="card">
+                    <h1>Lorem, ipsum dolor sit</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, officiis corrupti rerum iure
+                        facere velit dolorum, labore quidem, ab nesciunt voluptatum! Tenetur harum omnis ipsam eum aut
+                        rerum, dolor cupiditate.</p>
+                    <button>Learn more</button>
+                </div>
+                <div class="card">
+                    <h1>Lorem, ipsum dolor sit</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, officiis corrupti rerum iure
+                        facere velit dolorum, labore quidem, ab nesciunt voluptatum! Tenetur harum omnis ipsam eum aut
+                        rerum, dolor cupiditate.</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
+        </div>
+        <div class="page">
+            <h1><strong>Have you ever posted any photo on social media?</strong></h1>
+            <p class="h1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum alias quae quo esse quis?
+                Laboriosam
+                reprehenderit iure harum impedit</p>
+            <div class="page-side">
+                <div class="page-side1">
+                    <div class="col">
+                        <h1>Lorem, ipsum dolor sit</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sequi harum? Velit itaque
+                            similique omnis!</p>
+                    </div>
+                    <div class="col">
+                        <h1>Lorem, ipsum dolor sit</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sequi harum? Velit itaque
+                            similique omnis!</p>
+                    </div>
+                    <div class="col">
+                        <h1>Lorem, ipsum dolor sit</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sequi harum? Velit itaque
+                            similique omnis!</p>
+                    </div>
+                </div>
+                <div class="page-side1">
+                    <img src="./picture/image1.png" alt="image" class="img">
+                </div>
+            </div>
+
+        </div>
+
+
+        <section class="form-section">
+            <h1>Registration Form</h1>
+            <form id="registrationForm" novalidate>
+                <div class="form-group">
+                    <label for="firstName">First Name<span class="required">*</span></label>
+                    <input type="text" id="firstName" name="firstName" required>
+                    <small class="error-message"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">Last Name<span class="required">*</span></label>
+                    <input type="text" id="lastName" name="lastName" required>
+                    <small class="error-message"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email<span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                    <small class="error-message"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number<span class="required">*</span></label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <small class="error-message"></small>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password<span class="required">*</span></label>
+                    <input type="password" id="password" name="password" required>
+                    <small class="error-message"></small>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Link to external JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
